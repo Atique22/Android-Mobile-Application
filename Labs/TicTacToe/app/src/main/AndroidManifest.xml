@@ -11,6 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TicTacToe"
         tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3770935853731698~8332783952"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
